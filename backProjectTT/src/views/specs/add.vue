@@ -54,7 +54,7 @@ export default {
       }],
       //表单对象
       form: {
-        roleid: "", //橘色编号
+        roleid: "", //角色编号
         specsname: "", // 规格名称
         attrs: "", //规格属性
         status: 1, //状态1正常2禁用

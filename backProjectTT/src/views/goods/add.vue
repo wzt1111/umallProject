@@ -224,7 +224,9 @@ export default {
   },
   mounted() {
     //组件一加载就调取分类列表以及规格属性列表
-    this.getSpecsList();
+    this.getSpecsList({
+      bool:true
+    });
     this.getCateList();
   },
   props: ["addInfo"],
